@@ -1,2 +1,38 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Travel With Larissa — your next adventure starts here. Coming soon."><title>Travel With Larissa | Coming Soon</title><style>*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,sans-serif}body{min-height:100svh;background:#d9bd95 url('background.png') center center/cover no-repeat;display:flex;align-items:flex-start;justify-content:center;text-align:center;color:#10253b}main{width:min(94%,900px);padding:7vh 12px 30px}h1{font-family:Georgia,serif;font-size:clamp(2.8rem,8vw,6rem);font-weight:400;letter-spacing:.07em;margin:2.8rem 0 .4rem}.brand{font-family:Georgia,serif;font-style:italic;font-size:clamp(2.1rem,5vw,4rem);margin:0}.brand span{color:#9b6b2e}.eyebrow,.subtitle{letter-spacing:.3em;text-transform:uppercase;font-size:clamp(.65rem,1.4vw,.95rem)}.subtitle{font-size:clamp(.75rem,2vw,1.2rem)}@media(max-width:600px){body{background-position:55% center}main{padding-top:8vh;text-shadow:0 1px 15px rgba(255,255,255,.75)}h1{margin-top:2rem}}</style></head><body><main><p class="brand">Travel with <span>Larissa</span> ✈</p><p class="eyebrow">Travel • Explore • Make Memories</p><h1>COMING SOON</h1><p class="subtitle">Your next adventure starts here</p></main></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5e2ca">
+<meta name="description" content="Travel With Larissa — your next adventure starts here. Coming soon: unforgettable vacations and family travel.">
+<title>Travel With Larissa | Coming Soon</title>
+<style>
+:root{--navy:#102743;--gold:#a77736}*{box-sizing:border-box}html,body{margin:0;min-height:100%;width:100%;overflow-x:hidden}body{font-family:Arial,Helvetica,sans-serif;color:var(--navy);background:#f4e3cd}
+.desktop{min-height:100svh;display:grid;place-items:center;background:linear-gradient(110deg,#f9c97e,#b7d7e7)}
+.desktop img{display:block;width:100%;height:100svh;object-fit:contain;object-position:center;max-width:100%}
+.mobile{display:none}
+@media(max-width:700px){
+.desktop{display:none}.mobile{min-height:100svh;display:flex;flex-direction:column;background:linear-gradient(180deg,#c7e3f4 0%,#f7e9d4 55%,#f6cf98 100%);text-align:center;overflow:hidden}
+.copy{padding:clamp(28px,5svh,55px) 16px 10px;position:relative;z-index:1}
+.brand{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,8vw,3.4rem);font-style:italic;line-height:1.14;margin:0;font-weight:500;letter-spacing:-.035em}.brand span{color:var(--gold)}
+.tag{font-size:clamp(.55rem,2vw,.73rem);letter-spacing:.19em;margin:14px 0 clamp(27px,5svh,52px);font-weight:600}
+.title{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.8rem,12vw,5.1rem);line-height:.98;font-weight:500;letter-spacing:.025em;margin:0}
+.sub{font-size:clamp(.65rem,2.5vw,.9rem);font-weight:600;letter-spacing:.17em;line-height:1.55;max-width:340px;margin:17px auto 0}
+.photo{position:relative;flex:1 1 auto;min-height:250px;background:url('family-mobile.jpg') center bottom/cover no-repeat}
+.photo:before{content:"";position:absolute;inset:0 0 auto;height:18%;background:linear-gradient(to bottom,#f7e1bd,transparent)}
+.footer{padding:13px 10px 17px;background:#f4e3cd;font-size:.64rem;font-weight:600;letter-spacing:.16em}
+}
+@media(max-width:700px) and (max-height:650px){.copy{padding-top:16px}.tag{margin-bottom:15px}.title{font-size:2.5rem}.photo{min-height:170px}}
+</style>
+</head>
+<body>
+<main>
+<section class="desktop" aria-label="Travel With Larissa coming soon"><img src="background.jpg" alt="Travel With Larissa — Coming Soon. Your next adventure starts here. Family enjoying a tropical beach vacation." fetchpriority="high"></section>
+<section class="mobile" aria-label="Travel With Larissa coming soon">
+<div class="copy"><h1 class="brand">Travel with <span>Larissa</span> ✈</h1><p class="tag">TRAVEL · EXPLORE · MAKE MEMORIES</p><h2 class="title">COMING<br>SOON</h2><p class="sub">YOUR NEXT ADVENTURE STARTS HERE</p></div>
+<div class="photo" role="img" aria-label="Family enjoying a tropical beach sunset"></div>
+<div class="footer">TRAVEL · VACATIONS · FAMILY TRIPS</div>
+</section>
+</main>
+</body>
+</html>
